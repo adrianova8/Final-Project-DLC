@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+    <dc:title>Estudio del consumo eléctrico como indicador económico</dc:title>
+    <dc:creator>Adrià Nova</dc:creator>
+    <dc:creator>Raúl Santos</dc:creator>
+    <dc:creator>Samuel Valer Nasta</dc:creator>
+    <dc:creator>Abel González</dc:creator>
+    <dc:creator>Antonio Coll</dc:creator>
+    <dc:creator>María González-Estéfani</dc:creator>
+    <dc:subject>consumo eléctrico</dc:subject>
+    <dc:subject>Europa</dc:subject>
+    <dc:subject>PIB</dc:subject>
+    <dc:subject>población</dc:subject>
+    <dc:subject>desempleo</dc:subject>
+    <dc:description>Estudio de la correlación entre variables de carácter económico y demográfico y el consumo eléctrico de un país</dc:description>
+    <dc:publisher>Zenodo</dc:publisher>
+    <dc:contributor>Gobiernos de distintos países de Europa</dc:contributor>
+    <dc:date>Diciembre 2021</dc:date>
+    <dc:type>Artículo de investigación</dc:type>
+    <dc:type>dataset</dc:type>
+    <dc:format>PDF</dc:format>
+    <dc:format>CSV</dc:format>
+    <dc:identifier>AD01</dc:identifier>
+    <dc:source>Eurostat</dc:source>
+    <dc:language xsi:type="http://purl.org/dc/terms/ISO639-1">es</dc:language>
+    <dc:relation xsi:type='http://purl.org/dc/elements/1.1/relation'>Datos PIB de Eurostat</dc:relation>
+    <dc:relation xsi:type="http://purl.org/dc/terms/URI">https://ec.europa.eu/eurostat/databrowser/view/nama_10_gdp/default/table?lang=en</dc:relation>
+    <dc:temporal xsi:type='http://purl.org/dc/terms/temporal
+'>2015-2019</dc:temporal>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Alemania</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Austria</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Bélgica</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Dinamarca</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>España</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Francia</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Irlanda</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Italia</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Luxemburgo</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Noruega</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Países Bajos</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Portugal</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Reino Unido</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>República Checa</dc:spatial>
+    <dc:spatial xsi:type='http://purl.org/dc/terms/spatial'>Suecia</dc:spatial>
+    <dc:rights>Universidad de Cantabria</dc:rights>
+</metadata>
+

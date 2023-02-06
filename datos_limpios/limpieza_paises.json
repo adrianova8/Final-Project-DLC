@@ -1,0 +1,105 @@
+[
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "start",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column start by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "start 1",
+    "newColumnName": "Dia",
+    "description": "Rename column start 1 to Dia"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "start 2",
+    "newColumnName": "Hora Inicio",
+    "description": "Rename column start 2 to Hora Inicio"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "end",
+    "newColumnName": "Hora Final",
+    "description": "Rename column end to Hora Final"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora Inicio",
+    "expression": "grel:value.replace(':00+00:00', '')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hora Inicio using expression grel:value.replace(':00+00:00', '')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora Final",
+    "expression": "grel:value.replace(':00+00:00','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Hora Final using expression grel:value.replace(':00+00:00','')"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Hora Final",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column Hora Final by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Hora Final 1",
+    "description": "Remove column Hora Final 1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Hora Final 2",
+    "newColumnName": "Hora Final",
+    "description": "Rename column Hora Final 2 to Hora Final"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Dia",
+          "columnName": "Dia",
+          "query": "2020",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  }
+]
