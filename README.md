@@ -1,4 +1,4 @@
-**Estudio del consumo el éctrico como indicador económico**
+**ESTUDIO DEL CONSUMO ELÉCTRICO COMO INDICADOR ECONÓMICO**
 
 En el marco econ económico actual el precio de la luz es un factor económico diferencial debido a su alto impacto sobre las economías domésticas, 
 esta afirmación por parte de nuestro compañoero Abel desencadeno en una inquietud grupal que se intentó solventar mediante una búsqueda para determinar
